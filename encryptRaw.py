@@ -4,7 +4,7 @@ import sys, os
 from crypto import *
 
 if len(sys.argv)!=3:
-	print 'Usage: python encryptRaw.py [filename.txt] [key]'
+	print 'Usage: python encryptRaw.py [plaintext.txt] [key]'
 	sys.exit()
 
 filename = sys.argv[1]
