@@ -39,4 +39,4 @@ f.close()
 
 os.system('rm %s'%filename)
 print '"%s" deleted. Encrypted data stored in "secure.txt".'%filename
-# print 'Hash: %s'%h
+print 'You can now run credentials.py.'

@@ -4,11 +4,17 @@ from random import randint
 from crypto import *
 import os, sys, string
 
-if len(sys.argv)!=2:
+if len(sys.argv)!=2 or sys.argv[1]!='secure.txt':
 	print 'Usage: python credentials.py secure.txt'
         sys.exit()
 
 secureFilename = sys.argv[1]
+
+try:
+    f = open('secure.txt','r')
+except:
+    print 'Run "python encryptRaw.py" to produce "secure.txt"'
+    sys.exit()
 
 #Generate and validate a random number
 r = randint(10**5,10**6)

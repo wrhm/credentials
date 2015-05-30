@@ -1,0 +1,4 @@
+Gmail GmailUsername GmailPassword
+Facebook FacebookUsername FacebookPassword
+Bank BankUsername BankPassword
+OtherSite OtherSiteUsername OtherSitePassword
