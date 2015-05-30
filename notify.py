@@ -12,8 +12,8 @@ your account.
     PASSWORD = '____'
 '''
 
-USERNAME = 'bmatchen'#None
-PASSWORD = 'ivwourtvdmgyklms'#None
+USERNAME = None
+PASSWORD = None
 
 SENDER = '%s@gmail.com'%USERNAME
 RECIPIENT = SENDER
