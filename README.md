@@ -1,9 +1,11 @@
-README.md
+# Credentials
 
+## What is it?
 Credentials is a way for Gmail users to securely and locally store sensitive
 login information. It uses symmetric private-key encryption to protect your
 data, and two-factor authentication to control access.
 
+## Usage
 Using Credentials is straightforward:
 	- Use encryptRaw.py to encrypt and store login data in secure.txt.
 	- Then run credentials.py to access data.
