@@ -1,6 +1,6 @@
 README.md
 
-	Credentials is a way for Gmail users to securely and locally store sensitive
+Credentials is a way for Gmail users to securely and locally store sensitive
 login information. It uses symmetric private-key encryption to protect your
 data, and two-factor authentication to control access.
 
@@ -18,12 +18,12 @@ couple things:
 
 Example plaintext.txt contents:
 
-Gmail GmailUsername GmailPassword
-Facebook FacebookUsername FacebookPassword
-Bank BankUsername BankPassword
-OtherSite OtherSiteUsername OtherSitePassword
+	Gmail GmailUsername GmailPassword
+	Facebook FacebookUsername FacebookPassword
+	Bank BankUsername BankPassword
+	OtherSite OtherSiteUsername OtherSitePassword
 
-	Once this setup is done, you are ready to run credentials.py. The script
+Once this setup is done, you are ready to run credentials.py. The script
 will verify that all necessary files are correctly initialized, and begin the
 authentication protocol. You will receive an email with a numerical code that
 must be entered to proceed.
